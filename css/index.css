@@ -1,0 +1,67 @@
+:root {
+    --text-light: #eaeaea;
+    --dark-red: #06134efa;
+    --red: #07054e;
+    --orange-yellow: #bd9103;
+    --dark-green: #2b165b;
+    --light-green: #35146b;
+  }
+  
+  /* Boostrap overwrites */
+  .card-title {
+    color: var(--orange-yellow);
+    font-weight: bold;
+  }
+  
+  .luxury-bg {
+    background-color: var(--dark-red);
+    background-image: url("/img/Untitled_design_7_1600x.webp");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center top;
+  }
+  
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(
+        to right,
+        var(--dark-red),
+        var(--orange-yellow),
+        var(--dark-green)
+      )
+      2;
+  
+    color: var(--text-light);
+    z-index: 1;
+  }
+  section {
+    text-align: center;
+  }
+  section h2 {
+    margin: 0;
+    margin-bottom: 1.5rem;
+  }
+  section p {
+    margin: 0;
+  }
+  
+  footer p {
+    color: var(--text-light);
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+  }
+  footer {
+    background-color: var(--dark-green);
+  }
+  
+  a.nav-link {
+    cursor: pointer;
+    color: var(--text-light);
+  }
+  a.nav-link:hover {
+    color: var(--orange-yellow);
+  }

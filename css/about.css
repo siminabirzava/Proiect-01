@@ -1,0 +1,33 @@
+.welcome {
+    height: 50vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    color: var(--text-light);
+  }
+  
+  .card-body img {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+  }
+  
+  .people-container .col {
+    margin-top: 5rem;
+  }
+  
+  .people-container .card {
+    height: 24rem;
+    max-height: 24rem;
+  }
+  .people-container p {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }

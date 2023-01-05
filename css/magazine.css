@@ -1,0 +1,15 @@
+.welcome {
+    height: 50vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+    color: var(--text-light);
+  }
+  
+  .recipes img {
+    max-height: 90px;
+    object-fit:none;
+  }

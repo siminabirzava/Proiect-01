@@ -1,0 +1,27 @@
+.welcome {
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--text-light);
+  }
+  
+  .col img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .bar {
+    border-radius: 10px;
+    height: 0.25rem;
+    background-color: var(--light-green);
+    /* background-color: var(--red); */
+    /* var(--orange-yellow); */
+  }
+  
+  .activities-container > :nth-child(2n) .bar {
+    background-color: var(--orange-yellow);
+  }
